@@ -1,0 +1,267 @@
+hr {
+	border: none; /*Убираем границу*/
+	background-color: green; /* Цвет линии*/
+	color: green; /*Цвет линии для IE6-7*/
+	height: 2px; /*Толщина линии*/
+}
+
+/*много текста*/		
+.qwe1{
+	font: 200% Georgia;   /*размер и шрифт*/
+	color:#755A57;   /*цвет шрифта*/
+	text-align:justify;
+	font-weight: 800;
+	
+}
+		
+.qwe2{
+	font: 150% Georgia;   /*размер и шрифт*/
+	color:#755A57;   /*цвет шрифта*/
+	text-align:justify;
+}
+
+.qwe{
+	margin-left: 0px;
+}
+
+.qwer{
+	text-indent: 30px;
+}
+
+.qweqwe{
+	font: 200% Georgia;	
+	font-weight: 800;
+}	
+* {
+	box-sizing: border-box;
+}
+
+.floating-button {
+	text-decoration: none; /*чтобы у кнопки не было нижнего подчеркивания*/
+	display: inline-block; /*чтобы были в один ряд*/
+	height: 45px;    /*высота формы*/
+	line-height: 45px;    /*расстояние сверху формы*/
+	border-radius: 45px;  /*закругление углов формы*/
+	margin: 10px 20px;     /*расстояние донизу доверху, расстояние до объекта справа слева*/
+	text-align: center;
+	letter-spacing: 3px;  /*расстояние между буквами*/
+	color: #755A57;      /*цвет шрифта*/
+	background: white;    /*цвет заливки формы*/
+	transition: .3s;    /*время, за которое меняется кнопка*/
+	font-family: Georgia;   /*шрифт*/
+	font-size: 20px;   /*размер шрифта*/
+} 
+
+.floating-button:hover {
+	background: #755A57;   /*цвет рамки, после наведения на нее*/
+	box-shadow: 0 15px 20px rgba(100, 100, 100, .5);    /*параметры тени*/
+	color: white;
+	transform: translateY(-7px);  /*как высоко поднимается форма*/
+}
+		
+.floating-button1 {
+	width: 140px;  /*размер формы*/
+	box-shadow: 0 10px 20px rgba(0, 0, 0, .3);  /*параметры тени*/
+
+}
+		
+.floating-button2 {
+	width: 180px;   /*размер формы*/
+	box-shadow: 0 10px 20px rgba(0, 0, 0, .3);  /*параметры тени*/
+
+}	
+	
+.floating-button3 {
+	width: 260px;    /*размер формы*/
+	box-shadow: 0 10px 20px rgba(0, 0, 0, .3);  /*параметры тени*/
+	
+}	
+	
+.floating-button4 {
+	width: 160px;    /*размер формы*/
+	margin-left: 0px;
+	box-shadow: 0 5px 3px rgba(0, 0, 0, .1);  /*параметры тени*/
+}
+		
+html {
+	scroll-behavior: smooth;  /*плавное прокручивание, когда используешь ссылки внутри сайта*/
+	/*адаптивность к размеру экрану*/
+	width: 100%;                              
+    max-width: 2560px;   /*максимальное расширение*/
+	/*адаптивность к размеру экрану*/
+}
+
+.zxc {
+	margin-top: 13%; 
+	font-size: 50px; 
+	font: 300% Georgia;   /*размер и шрифт*/
+	color:#654321;   /*цвет шрифта*/
+	font-weight: 800;
+	margin-bottom: -40px;
+}	
+	
+/*адаптивность картинки начало*/
+.wrapper {   
+  position: relative;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+img {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+/*адаптивность картинки конец*/
+
+.poi1 {
+	display: inline;
+	margin-left: 30px; 
+	font-size: 50px; 
+	font-weight: 800; 
+	font-style: italic;
+	color: #e4cb99;
+}
+
+.poi2 {
+	display: inline;
+	float:right;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #1d0e0a;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-left: -8px;
+  
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+IMG.fig {
+	width:30%; 
+	border-radius:50px; 
+	border: 5px #ccc solid;
+}
+
+IMG.fig1{
+	float: right;
+	margin-left: 20px;
+}
+
+IMG.fig2{
+	float: left;
+	margin-left: 0px;
+	margin-right: 10px;
+}
+
+.paral {
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url('file:///C:/Users/Сима/Desktop/ПП%20проект/qwe.jpg');
+   
+  height: 90%; 
+  margin-left: -9px;
+  margin-right: -8px;
+ 
+}
+
+.vvod { 
+  -moz-appearance: textfield;
+}
+.vvod::-webkit-inner-spin-button { 
+  display: none;
+}
+
+
+.signupSection {   /*вся форма*/
+  display: flex;
+  background-repeat: no-repeat;
+  margin-top: -20%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  width: 850px;   /* ширина всей формы*/
+  height: 490px;   /*высота*/
+  text-align: center;
+
+  color: white;
+  box-shadow: 3px 10px 20px 5px rgba(0, 0, 0, .5);
+}
+
+.info {
+  width: 45%;
+  background: rgba(20, 20, 20, .8);
+  padding: 30px 0;
+  border-right: 5px solid rgba(30, 30, 30, .8);
+  h2 {
+    padding-top: 30px;
+    font-weight: 300;
+  }
+  p {
+    font-size: 18px;
+  }
+  .icon {
+    font-size: 8em;
+    padding: 20px 0;
+    color: rgba(10, 180, 180, 1);
+  }
+}
+
+.signupForm {
+  width: 70%;
+  padding: 30px 0;
+  background: rgba(20, 40, 40, .8);
+  transition: .2s;
+  h2 {
+    font-weight: 300;
+  }
+}
+
+.inputFields {    /*формы для заполнения*/
+  margin: 15px 0;
+  font-size: 16px;
+  padding: 10px;
+  width: 250px;
+  border: 1px solid rgba(10, 180, 180, 1);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: rgba(20, 20, 20, .2);
+  color: white;
+  outline: none;
+}
+
+.noBullet {  /*чтобы не было точек*/
+  list-style-type: none;
+  padding: 0;
+}
+
+#join-btn {   /*кнопка отправить*/
+  border: 1px solid rgba(10, 180, 180, 1);
+  background: rgba(20, 20, 20, .6);
+  font-size: 18px;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 50px;
+  cursor: pointer;
+  transition: .4s;
+  &:hover {
+    background: rgba(20, 20, 20, .8);
+    padding: 10px 80px;
+ }
+
+.target {
+	margin-top: 0px;
+}
+
+
